@@ -1,16 +1,26 @@
 {
   "name": "moviedb",
   "version": "1.0.0",
-  "description": "\"Movie DataBase\"",
+  "description":"A Database of the Latest Movies",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmadhamdach/movie-db.git"
+  },
+  "author": "ahmadhamdach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmadhamdach/movie-db/issues"
+  },
+  "homepage": "https://github.com/ahmadhamdach/movie-db#readme",
   "dependencies": {
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.6"
   }
 }
